@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000F5E7B1E464CDE00EB7561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F5E7A1E464CDE00EB7561 /* AppDelegate.swift */; };
+		000F5E7D1E464CDE00EB7561 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F5E7C1E464CDE00EB7561 /* ViewController.swift */; };
+		000F5E801E464CDE00EB7561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000F5E7E1E464CDE00EB7561 /* Main.storyboard */; };
+		000F5E821E464CDE00EB7561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000F5E811E464CDE00EB7561 /* Assets.xcassets */; };
+		000F5E851E464CDE00EB7561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 000F5E831E464CDE00EB7561 /* LaunchScreen.storyboard */; };
+		000F5E901E464CDF00EB7561 /* jaljaliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F5E8F1E464CDF00EB7561 /* jaljaliTests.swift */; };
+		000F5E9B1E464CDF00EB7561 /* jaljaliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F5E9A1E464CDF00EB7561 /* jaljaliUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		000F5E8C1E464CDF00EB7561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000F5E6F1E464CDD00EB7561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000F5E761E464CDD00EB7561;
+			remoteInfo = jaljali;
+		};
+		000F5E971E464CDF00EB7561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 000F5E6F1E464CDD00EB7561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000F5E761E464CDD00EB7561;
+			remoteInfo = jaljali;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000F5E771E464CDE00EB7561 /* jaljali.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jaljali.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000F5E7A1E464CDE00EB7561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		000F5E7C1E464CDE00EB7561 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		000F5E7F1E464CDE00EB7561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		000F5E811E464CDE00EB7561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000F5E841E464CDE00EB7561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		000F5E861E464CDE00EB7561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000F5E8B1E464CDF00EB7561 /* jaljaliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jaljaliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000F5E8F1E464CDF00EB7561 /* jaljaliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jaljaliTests.swift; sourceTree = "<group>"; };
+		000F5E911E464CDF00EB7561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000F5E961E464CDF00EB7561 /* jaljaliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jaljaliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000F5E9A1E464CDF00EB7561 /* jaljaliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jaljaliUITests.swift; sourceTree = "<group>"; };
+		000F5E9C1E464CDF00EB7561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000F5E741E464CDD00EB7561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000F5E881E464CDF00EB7561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000F5E931E464CDF00EB7561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000F5E6E1E464CDD00EB7561 = {
+			isa = PBXGroup;
+			children = (
+				000F5E791E464CDE00EB7561 /* jaljali */,
+				000F5E8E1E464CDF00EB7561 /* jaljaliTests */,
+				000F5E991E464CDF00EB7561 /* jaljaliUITests */,
+				000F5E781E464CDE00EB7561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000F5E781E464CDE00EB7561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000F5E771E464CDE00EB7561 /* jaljali.app */,
+				000F5E8B1E464CDF00EB7561 /* jaljaliTests.xctest */,
+				000F5E961E464CDF00EB7561 /* jaljaliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000F5E791E464CDE00EB7561 /* jaljali */ = {
+			isa = PBXGroup;
+			children = (
+				000F5E7A1E464CDE00EB7561 /* AppDelegate.swift */,
+				000F5E7C1E464CDE00EB7561 /* ViewController.swift */,
+				000F5E7E1E464CDE00EB7561 /* Main.storyboard */,
+				000F5E811E464CDE00EB7561 /* Assets.xcassets */,
+				000F5E831E464CDE00EB7561 /* LaunchScreen.storyboard */,
+				000F5E861E464CDE00EB7561 /* Info.plist */,
+			);
+			path = jaljali;
+			sourceTree = "<group>";
+		};
+		000F5E8E1E464CDF00EB7561 /* jaljaliTests */ = {
+			isa = PBXGroup;
+			children = (
+				000F5E8F1E464CDF00EB7561 /* jaljaliTests.swift */,
+				000F5E911E464CDF00EB7561 /* Info.plist */,
+			);
+			path = jaljaliTests;
+			sourceTree = "<group>";
+		};
+		000F5E991E464CDF00EB7561 /* jaljaliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				000F5E9A1E464CDF00EB7561 /* jaljaliUITests.swift */,
+				000F5E9C1E464CDF00EB7561 /* Info.plist */,
+			);
+			path = jaljaliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000F5E761E464CDD00EB7561 /* jaljali */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000F5E9F1E464CDF00EB7561 /* Build configuration list for PBXNativeTarget "jaljali" */;
+			buildPhases = (
+				000F5E731E464CDD00EB7561 /* Sources */,
+				000F5E741E464CDD00EB7561 /* Frameworks */,
+				000F5E751E464CDD00EB7561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jaljali;
+			productName = jaljali;
+			productReference = 000F5E771E464CDE00EB7561 /* jaljali.app */;
+			productType = "com.apple.product-type.application";
+		};
+		000F5E8A1E464CDF00EB7561 /* jaljaliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000F5EA21E464CDF00EB7561 /* Build configuration list for PBXNativeTarget "jaljaliTests" */;
+			buildPhases = (
+				000F5E871E464CDF00EB7561 /* Sources */,
+				000F5E881E464CDF00EB7561 /* Frameworks */,
+				000F5E891E464CDF00EB7561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000F5E8D1E464CDF00EB7561 /* PBXTargetDependency */,
+			);
+			name = jaljaliTests;
+			productName = jaljaliTests;
+			productReference = 000F5E8B1E464CDF00EB7561 /* jaljaliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		000F5E951E464CDF00EB7561 /* jaljaliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000F5EA51E464CDF00EB7561 /* Build configuration list for PBXNativeTarget "jaljaliUITests" */;
+			buildPhases = (
+				000F5E921E464CDF00EB7561 /* Sources */,
+				000F5E931E464CDF00EB7561 /* Frameworks */,
+				000F5E941E464CDF00EB7561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				000F5E981E464CDF00EB7561 /* PBXTargetDependency */,
+			);
+			name = jaljaliUITests;
+			productName = jaljaliUITests;
+			productReference = 000F5E961E464CDF00EB7561 /* jaljaliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000F5E6F1E464CDD00EB7561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JunmokHan;
+				TargetAttributes = {
+					000F5E761E464CDD00EB7561 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					000F5E8A1E464CDF00EB7561 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 000F5E761E464CDD00EB7561;
+					};
+					000F5E951E464CDF00EB7561 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 000F5E761E464CDD00EB7561;
+					};
+				};
+			};
+			buildConfigurationList = 000F5E721E464CDD00EB7561 /* Build configuration list for PBXProject "jaljali" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000F5E6E1E464CDD00EB7561;
+			productRefGroup = 000F5E781E464CDE00EB7561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000F5E761E464CDD00EB7561 /* jaljali */,
+				000F5E8A1E464CDF00EB7561 /* jaljaliTests */,
+				000F5E951E464CDF00EB7561 /* jaljaliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		000F5E751E464CDD00EB7561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F5E851E464CDE00EB7561 /* LaunchScreen.storyboard in Resources */,
+				000F5E821E464CDE00EB7561 /* Assets.xcassets in Resources */,
+				000F5E801E464CDE00EB7561 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000F5E891E464CDF00EB7561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000F5E941E464CDF00EB7561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000F5E731E464CDD00EB7561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F5E7D1E464CDE00EB7561 /* ViewController.swift in Sources */,
+				000F5E7B1E464CDE00EB7561 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000F5E871E464CDF00EB7561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F5E901E464CDF00EB7561 /* jaljaliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000F5E921E464CDF00EB7561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000F5E9B1E464CDF00EB7561 /* jaljaliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		000F5E8D1E464CDF00EB7561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000F5E761E464CDD00EB7561 /* jaljali */;
+			targetProxy = 000F5E8C1E464CDF00EB7561 /* PBXContainerItemProxy */;
+		};
+		000F5E981E464CDF00EB7561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 000F5E761E464CDD00EB7561 /* jaljali */;
+			targetProxy = 000F5E971E464CDF00EB7561 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		000F5E7E1E464CDE00EB7561 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000F5E7F1E464CDE00EB7561 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		000F5E831E464CDE00EB7561 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				000F5E841E464CDE00EB7561 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		000F5E9D1E464CDF00EB7561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000F5E9E1E464CDF00EB7561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000F5EA01E464CDF00EB7561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jaljali/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaljali.jaljali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		000F5EA11E464CDF00EB7561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = jaljali/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaljali.jaljali;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		000F5EA31E464CDF00EB7561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jaljaliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaljali.jaljaliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jaljali.app/jaljali";
+			};
+			name = Debug;
+		};
+		000F5EA41E464CDF00EB7561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = jaljaliTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaljali.jaljaliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jaljali.app/jaljali";
+			};
+			name = Release;
+		};
+		000F5EA61E464CDF00EB7561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = jaljaliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaljali.jaljaliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = jaljali;
+			};
+			name = Debug;
+		};
+		000F5EA71E464CDF00EB7561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = jaljaliUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaljali.jaljaliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = jaljali;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000F5E721E464CDD00EB7561 /* Build configuration list for PBXProject "jaljali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000F5E9D1E464CDF00EB7561 /* Debug */,
+				000F5E9E1E464CDF00EB7561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000F5E9F1E464CDF00EB7561 /* Build configuration list for PBXNativeTarget "jaljali" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000F5EA01E464CDF00EB7561 /* Debug */,
+				000F5EA11E464CDF00EB7561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		000F5EA21E464CDF00EB7561 /* Build configuration list for PBXNativeTarget "jaljaliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000F5EA31E464CDF00EB7561 /* Debug */,
+				000F5EA41E464CDF00EB7561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		000F5EA51E464CDF00EB7561 /* Build configuration list for PBXNativeTarget "jaljaliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000F5EA61E464CDF00EB7561 /* Debug */,
+				000F5EA71E464CDF00EB7561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000F5E6F1E464CDD00EB7561 /* Project object */;
+}
